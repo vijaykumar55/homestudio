@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="./images/logo.png">
 
     <link rel="stylesheet" href="./styles.css" type="text/css" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>NU HomeStudio</title>
@@ -15,14 +16,12 @@
 
     <meta name="keywords" content="" />
 
-    <link rel='stylesheet' id='responsiveslides-css' href='https://le-mugs.com/wp-content/themes/mugs/js/responsiveslides/responsiveslides.css?ver=4.9.18' type='text/css' media='all' />
-
     <script type='text/javascript' src='./js/prefixfree.min.js'></script>
     <script type='text/javascript' src='./js/modernizr.custom.js'></script>
     <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAhWbxCIXo5W02YLCDJf9lU81qLLBwwzrs&#038;ver=4.9.18'></script>
     <script type='text/javascript' src='./js/jquery.js'></script>
     <script type='text/javascript' src='./js/jquery-migrate.min.js'></script>
-    <script type='text/javascript' src='https://le-mugs.com/wp-content/themes/mugs/js/responsiveslides/responsiveslides.js?ver=4.9.18'></script>
+    <script type='text/javascript' src='./js/responsiveslides.js'></script>
     <script type='text/javascript' src='./js/parallax.js'></script>
     <script type='text/javascript' src='./js/scrollmagic.js'></script>
     <script type='text/javascript' src='./js/scrollmagic-addindicators.js'></script>
@@ -34,69 +33,19 @@
     <script type='text/javascript' src='./js/lethargy.js'></script>
     <script type='text/javascript' src='./js/pace.min.js'></script>
     <script type='text/javascript' src='./js/main.js'></script>
-    <script type='text/javascript' src='https://le-mugs.com/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.4'></script>
-    <!-- <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
-    <!-- <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script> -->
-    <!-- <script type='text/javascript' src="js/anim.js"></script> -->
-    <!-- <link rel='https://api.w.org/' href='https://le-mugs.com/en/wp-json/' /> -->
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://le-mugs.com/xmlrpc.php?rsd" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,700" rel="stylesheet" />
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://le-mugs.com/wp-includes/wlwmanifest.xml" />
-    <meta name="generator" content="WordPress 4.9.18" />
-    <meta name="generator" content="WPML ver:3.9.3 stt:1,4;" />
-    <!-- Google Analytics Tracking by Google Analyticator 6.5.4: http://www.videousermanuals.com/google-analyticator/ -->
-    <script type="text/javascript">
-        var analyticsFileTypes = [''];
-        var analyticsSnippet = 'disabled';
-        var analyticsEventTracking = 'enabled';
-    </script>
-    <script type="text/javascript">
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-        ga('create', 'UA-68178606-1', 'auto');
-
-        ga('send', 'pageview');
-    </script>
-
 </head>
 
 <body>
     <div id="wrapper">
-        <div id="fb-root"></div>
-        <!-- <script>
-            (function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s);
-                js.id = id;
-                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=239997546093598";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-        </script> -->
         <script>
             var pageId = 11;
-            var url = "https://le-mugs.com/wp-content/themes/mugs/ajax-menu.php?id=" + pageId;
+            var url = pageId;
         </script>
         <div class="blackscreen2">
             <div id="loading" class="absolute-Center">
-                <!-- <div id="percent">
-                    <h1>0%</h1>
-                </div> -->
-                <!-- <div class="sentence">
-                    <img class="align-top" src="https://le-mugs.com/wp-content/themes/mugs/images/quote.svg">
-                    <span>Ne laissez personne vous dire que vous avez un vilain défaut...</span>
-                    <img class="rotation180 align-bottom" src="https://le-mugs.com/wp-content/themes/mugs/images/quote.svg">
-                </div> -->
+
             </div>
 
             <div class="titleslide">
@@ -140,7 +89,7 @@
                     <div class="circle-o"></div>
                 </li> -->
             </ul>
-            <div class="logoFB"><a href="./db/customer_register.php"><span>Signin</span><img src="./images/signin.png"></i></a></div>
+            <div class="logoFB"><a href="./db/customer_login.php"><span>Signin</span><img src="./images/signin.png"></i></a></div>
         </div>
         <div class="section1">
 
@@ -149,7 +98,7 @@
             <div class="arrow">
                 <div class="align-middle">
                     <div id="scrollTitle">SCROLL DOWN</div>
-                    <img src="https://le-mugs.com/wp-content/themes/mugs/images/arrow.png">
+                    <img src="./images/arrow.png">
                 </div>
             </div>
             <div class="titleslide">
@@ -298,14 +247,7 @@
             <div class="bg2" style="background-image: url('images/CS1.jpg');"></div>
         </div>
         <div class="section5">
-            <div class="parassol rouge"><img src="./images/steering.png"></div>
-            <!-- <div class="parassol rouge ombre"><img src="./images/123.png"></div> -->
-            <!-- <div class="verre"><img src="https://le-mugs.com/wp-content/themes/mugs/images/verre.png"></div> -->
-            <div class="parassol vert"><img src="./images/clock.png"></div>
-            <!-- <div class="parassol vert ombre"><img src="https://le-mugs.com/wp-content/themes/mugs/images/parassol-ombre.png"></div> -->
-            <!-- <div class="parassol creme"><img src="https://le-mugs.com/wp-content/themes/mugs/images/parassol-creme.png"></div> -->
-            <!-- <div class="parassol creme ombre"><img src="https://le-mugs.com/wp-content/themes/mugs/images/parassol-ombre.png"></div> -->
-
+            <div class="parassol rouge"><img src="./images/clock.png"></div>
             <div class="calme">
 
                 <div class="title">
@@ -315,7 +257,7 @@
 
             <div class="section5para">
                 <div class="parallax-window">
-                    <img src="./images/design.jpg">
+                    <!-- <img src="./images/design.jpg"> -->
                     <div class=" small-container">
                         <div class="card1">
                             <div class="card-content">
@@ -349,7 +291,7 @@
                 <div class="lampe"><img src="./images/lamp_ch1reg.webp"></div>
                 <div class="packageImg"></div>
                 <div class="packageImg2"></div>
-                <div class="packageImg3"></div>
+                <!-- <div class="packageImg3"></div> -->
                 <div class="packageHeading">
                     <h1>PACKAGES</h1>
                 </div>
@@ -361,592 +303,34 @@
             </div>
 
         </div>
-        <!-- <div class="section4">
 
-            <div class="parallax-window">
-                <div class="textOverparallax">
-                </div>
-                <div class="diamond-grid">
-                    <div class="heading">
-                        <h2>MATERIALS</h2>
-                    </div>
-                    <div class="para">
-                        <p>Know your Materials in Your space...</p>
-                        <a href="#" class="btn">Know More</a>
-                    </div>
-                    <div class="bgImg" style="background-image:url('./images/leaving.jpg');"></div>
-                    <div class="bgImg2" style="background-image:url('./images/big-lamp_rld9p8.webp');"></div>
-                    <div class="bgImg3" style="background-image:url('./images/flowerVase.webp');"></div>
-                    <div class="item1" style="background-image:url('data:image/jpeg;base64,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');"></div>
-                    <div class="item2" style="background-image:url('https://images.designtrends.com/wp-content/uploads/2015/12/22093744/Dark-Seamless-Wood-Texture.jpg');"></div>
-                    <div class="item3" style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmt7nCw482j2fQTqyC9oPslF4yS1aecmZesg&usqp=CAU');"></div>
-                    <div class="item4" style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhi5rXEaA8BIBcxbBSOHuqXH_Q8y5Q3ZuLxg&usqp=CAU');"></div>
-                </div>
-            </div>
-         
-        </div> -->
-
-
-        <!-- <div class="section6">
-
-            <div class="atable">
-                <div class="trigger-salades"></div>
-
-                <div class="title">
-                    <h2>TAKE</h2>
-                    <h1>A LOOK</h1>
-                    <h2>AT THE</h2>
-                    <h1 style="text-align:right;"> MENU</h1>
-                    
-                </div>
-
-                <div class="basilic"><img src="https://le-mugs.com/wp-content/themes/mugs/images/basilic.png"></div>
-                <div class="huile"><img src="https://le-mugs.com/wp-content/themes/mugs/images/huile.png"></div>
-                <div class="menucarte"><img src="https://le-mugs.com/wp-content/themes/mugs/images/menu.png"></div>
-                <div class="plate1">
-                    <img src="https://le-mugs.com/wp-content/themes/mugs/images/salade-lentilles.png">
-                    <div class="rollover" data-id="1">
-                        <div class="roundbtn">
-                            <svg version="1.1" id="decouvrir" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px" height="150px" viewBox="0 0 150 150" enable-background="new 0 0 150 150" xml:space="preserve">
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M38.077,69.726v10.841h3.087
-	c0,0,5.643,0.219,5.643-5.643c0-5.43-6.003-5.214-6.003-5.214L38.077,69.726z"/>
-<g>
-	<polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" points="101.034,69.889 93.885,69.889 
-		93.885,80.568 101.052,80.568 	"/>
-	
-		<line fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" x1="101.268" y1="77.272" x2="92.448" y2="77.272"/>
-</g>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M69.081,71.237c0,0-2.382-2.466-5.893-1.008
-	s-5.006,7.456-0.09,9.869c0,0,3.336,1.495,5.983-0.846"/>
-<circle fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" cx="75.269" cy="74.994" r="5.574"/>
-<polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" points="80.889,69.458 86.436,80.568 
-	92.011,69.455 "/>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M103.327,80.568V69.727h3.824
-	c0,0,3.638-0.216,3.638,3.188c0,3.404-3.89,3.35-3.89,3.35l-1.315-0.036l6.339,4.25"/>
-<line fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" x1="48.662" y1="69.619" x2="48.662" y2="80.568"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M59.666,71.256c0,0-1.233-1.915-4.814-1.93
-	c-3.581-0.015-4.713,3.137-3.519,4.575c1.194,1.438,4.545,1.224,5.845,1.668c1.301,0.444,2.326,1.438,1.76,3.213
-	c-0.566,1.775-4.751,2.985-7.372,0.422"/>
-</svg> </div>
-                    </div>
-                </div>
-                <div class="salade">
-                    <svg version="1.1" id="saladesvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="231px" height="235px" viewBox="0 0 231 235" enable-background="new 0 0 231 235" xml:space="preserve">
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M50.561,97.479c-17.182,11.48,14.482,32.726,14.16,43.978c-0.158,5.562-5.945,10.347-10.023,4.55"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M75.385,143.604c-2.129-9.674-4.299-19.411-5.087-29.306c-0.308-3.869-1.995-15.606,1.671-18.635
-	c6.41-5.295,11.436,22.328,12.213,26.06c1.375,6.603,2.576,13.242,3.838,19.868"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M70.967,120.066c4.13-0.823,8.218-1.654,12.355-2.404"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M88.187,89.036c3.422,10.671,6.934,21.34,9.945,32.134c0.998,3.575,1.539,16.189,5.029,18.407c2.035,1.294,4.276-0.085,5.991-1.453"
-	/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M121.509,135.273c-2.937-8.119-5.718-16.291-7.534-24.745c-1.365-6.352-4.098-16.285-1.825-22.717
-	c1.888-5.341,4.455-2.835,7.006,1.04c4.471,6.79,7.013,15.359,9.082,23.139c1.919,7.217,2.979,14.491,3.335,21.941"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M114.576,113.636c4.396-0.981,8.675-2.411,12.972-3.745"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M147.674,134.155c-5.905-17.36-13.825-35.369-17.49-53.331c15.73,13.051,24.729,27.903,20.676,49.176
-	c-0.379,1.991-0.471,5.765-3.129,4.603"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M157.905,75.171c-8.814,8.97,1.768,22.756,6.933,30.843c3.507,5.492,11.816,18.168,4.741,24.618
-	c-2.095,1.91-3.874,1.806-5.747-0.727"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M34.682,89.092c-4.52-3.323-9.221-5.862-13.082-10.12"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M61.773,73.093c-2.908-4.798-6.283-8.94-8.225-14.35"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M94.222,61.493c-1.27-5.465-3.187-10.452-3.347-16.197"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M97.213,181.754c-0.268-5.605-1.258-10.855-0.384-16.535"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M133.671,61.084c0.834-4.478,2.076-8.315,3.742-12.416"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M166.181,66.617c2.513-2.782,4.517-5.787,6.485-8.833"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M185.86,118.892c5.385,0.016,11.142-0.573,16.493,0.168"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M122.454,160.976c1.784,5.081,4.262,10.311,5.351,15.603"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M179.266,92.137c5.172-1.5,10.531-3.684,15.875-4.478"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M159.807,146.119c3.401,3.628,7.7,9.387,11.853,12.076"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M68.562,164.737c0.321,6.009-1.442,11.911-1.396,17.892"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M44.523,152.492c-5.05,2.938-10.343,6.47-15.878,8.498"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M36.248,124.594c-5.322,1.141-11.269,2.086-16.773,2.069"/>
-</svg> </div>
-
-                <div class="tomates-cerise"><img src="https://le-mugs.com/wp-content/themes/mugs/images/tomates-cerise.png"></div>
-                <div class="planchecharcuterie"><img src="https://le-mugs.com/wp-content/themes/mugs/images/planche-charcuteries.png">
-                    <div class="rollover" data-id="2">
-                        <div class="roundbtn">
-                            <svg version="1.1" id="decouvrir" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px" height="150px" viewBox="0 0 150 150" enable-background="new 0 0 150 150" xml:space="preserve">
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M38.077,69.726v10.841h3.087
-	c0,0,5.643,0.219,5.643-5.643c0-5.43-6.003-5.214-6.003-5.214L38.077,69.726z"/>
-<g>
-	<polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" points="101.034,69.889 93.885,69.889 
-		93.885,80.568 101.052,80.568 	"/>
-	
-		<line fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" x1="101.268" y1="77.272" x2="92.448" y2="77.272"/>
-</g>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M69.081,71.237c0,0-2.382-2.466-5.893-1.008
-	s-5.006,7.456-0.09,9.869c0,0,3.336,1.495,5.983-0.846"/>
-<circle fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" cx="75.269" cy="74.994" r="5.574"/>
-<polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" points="80.889,69.458 86.436,80.568 
-	92.011,69.455 "/>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M103.327,80.568V69.727h3.824
-	c0,0,3.638-0.216,3.638,3.188c0,3.404-3.89,3.35-3.89,3.35l-1.315-0.036l6.339,4.25"/>
-<line fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" x1="48.662" y1="69.619" x2="48.662" y2="80.568"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M59.666,71.256c0,0-1.233-1.915-4.814-1.93
-	c-3.581-0.015-4.713,3.137-3.519,4.575c1.194,1.438,4.545,1.224,5.845,1.668c1.301,0.444,2.326,1.438,1.76,3.213
-	c-0.566,1.775-4.751,2.985-7.372,0.422"/>
-</svg> </div>
-                    </div>
-                </div>
-                <div class="surlepouce">
-                    <svg version="1.1" id="surlepoucesvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="269.677px" height="119.354px" viewBox="0 0 269.677 119.354" enable-background="new 0 0 269.677 119.354" xml:space="preserve">
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M53.329,43.672c2.192,8.485,4.29,17.564,6.137,26.325"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M40.445,47.41c7.552-5.635,18.718-7.21,27.497-11.882"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M69.448,50.309c-5.43,18.71,26.551,13.821,19.62-1.965c-4.903-11.166-20-5.945-19.507,3.973"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M102.97,61.294c-4.69-14.104-7.219-30.11-8.412-44.812c9.383,15.733,19.217,31.219,28.826,46.819"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M100.57,49.304c3.579-0.401,7.293-1.344,10.486-2.678"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M123.771,23.2c-12.398,12.605,14.751,17.309,7.085,32.517"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M138.831,7.136c3.365,11.663,4.539,24.487,7.028,36.588"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M132.584,17.957c8.178-2.465,16.522-4.347,24.93-5.857"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M158.409,33.962c4.182-0.175,8.348-1.775,11.631-4.117c-7.807-22.296-18.295-1.22-10.937,9.882
-	c6.218,9.381,13.322,7.063,13.975-3.479"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M177.257,12.209c3.101,9.889,5.203,20.033,7.755,30.063"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M175.642,9.923c16.965,4,34.53,24.866,10.542,33.855"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M76.952,82.438c2.141,9.789,5.127,19.354,7.387,29.1"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M91.557,78.016c3.327,9.621,6.104,19.454,8.571,29.301"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M84.967,79.021c4.707-1.77,9.434-3.287,14.283-4.584"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M109.133,72.929c2.525,9.296,5.338,18.491,7.418,27.896c2.948-0.446,5.797-1.287,8.203-2.495"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M108.759,72.546c2.712-0.445,5.574-1.166,8.056-2.028"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M106.29,88.705c4.171-1.192,8.401-2.451,12.493-3.718"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M139.411,94.127c-2.406-8.437-4.315-17-6.235-25.549c3.028,1.918,8.439,2.049,11.691,3.867c1.575-3.496,5.65-6.228,6.989-9.646
-	c3.743,9.847,6.969,19.805,10.492,29.705"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M166.281,58.317c-11.024,14.218,17.962,18.875,9.672,32.783"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M43.221,100.794c7.083-0.985,14.5-0.93,21.621-1.009c-5.614,4.614-11.679,9.33-17.501,13.79"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M204.884,55.588c-7.04,3.963-13.818,8.081-20.666,12.11c7.481-0.222,15.147,0.087,22.329,0.906"/>
-</svg>
-                </div>
-                <div class="moutarde"><img src="https://le-mugs.com/wp-content/themes/mugs/images/moutarde.png"></div>
-                <div class="burger"><img src="https://le-mugs.com/wp-content/themes/mugs/images/burger-boeuf-seul.png">
-                    <div class="rollover" data-id="3">
-                        <div class="roundbtn">
-                            <svg version="1.1" id="decouvrir" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px" height="150px" viewBox="0 0 150 150" enable-background="new 0 0 150 150" xml:space="preserve">
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M38.077,69.726v10.841h3.087
-	c0,0,5.643,0.219,5.643-5.643c0-5.43-6.003-5.214-6.003-5.214L38.077,69.726z"/>
-<g>
-	<polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" points="101.034,69.889 93.885,69.889 
-		93.885,80.568 101.052,80.568 	"/>
-	
-		<line fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" x1="101.268" y1="77.272" x2="92.448" y2="77.272"/>
-</g>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M69.081,71.237c0,0-2.382-2.466-5.893-1.008
-	s-5.006,7.456-0.09,9.869c0,0,3.336,1.495,5.983-0.846"/>
-<circle fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" cx="75.269" cy="74.994" r="5.574"/>
-<polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" points="80.889,69.458 86.436,80.568 
-	92.011,69.455 "/>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M103.327,80.568V69.727h3.824
-	c0,0,3.638-0.216,3.638,3.188c0,3.404-3.89,3.35-3.89,3.35l-1.315-0.036l6.339,4.25"/>
-<line fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" x1="48.662" y1="69.619" x2="48.662" y2="80.568"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M59.666,71.256c0,0-1.233-1.915-4.814-1.93
-	c-3.581-0.015-4.713,3.137-3.519,4.575c1.194,1.438,4.545,1.224,5.845,1.668c1.301,0.444,2.326,1.438,1.76,3.213
-	c-0.566,1.775-4.751,2.985-7.372,0.422"/>
-</svg>
-                        </div>
-                    </div>
-                </div>
-                <div class="frittes"><img src="https://le-mugs.com/wp-content/themes/mugs/images/panier-frites.png"></div>
-                <div class="nosplats">
-                    <svg version="1.1" id="nosplatssvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="234.167px" height="153px" viewBox="0 0 234.167 153" enable-background="new 0 0 234.167 153" xml:space="preserve">
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M30.71,19.961c1.684,9.594,3.152,19.261,5.293,28.757"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M33.098,30.851c0.233-5.33,2.092-10.432,5.621-13.694c4.131,9.623,5.757,20.175,7.462,30.477"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M42.522,26.837c2.679-28.134,13.477,10.002,14.818,18.6"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M68.206,14.779c-15.098-3.066-6.932,40.691,5.616,26.58"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M67.67,10.396c1.79,11.898,4.271,23.884,7.872,35.372"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M75.157,11.437c1.853,10.229,3.581,20.69,6.57,30.653"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M82.578,9.424c1.357,11.346,3.708,22.633,6.18,33.785"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M84.227,18.795c8.885-35.701,14.44,16.601,19.547,22.716"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M73.413,4.203c0.02,0.114,0.08,0.457,0.08,0.457"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M69.559,51.769c-8.496,25.197-0.628,51.217,13.47,72.558"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M83.678,47.637c-4.706,14.838-5.394,65.988,13.804,71.763c5.168-13.983,0.925-64.143-14.114-72.18"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M100.938,45.307c1.241,8.044,5.29,69.104,15.195,71.661c7.35,1.896,2.504-29.623,1.837-34.2c-1.864-12.761-4.894-25.36-7.918-37.885
-	"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M134.278,112.957c-3.617-22.816-7.258-45.737-12.248-68.296"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M121.952,44.204c16.494,10.354,32.034,45.878,13.245,60.581"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M134.741,104.863c5.585,3.038,11.376,4.33,14.76-0.476"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M147.282,35.508c-19.036,22.278,28.245,51.904,8.91,74.771"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M166.977,32.279c-3.833,17.467-3.744,63.561,13.603,74.656"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M160.623,68.504c3.831-0.427,7.672-1.026,11.47-1.783"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M182.963,28.053c-21.72,21.941,21.833,53.882,9.283,78.241"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M35.121,59.422c0,0,0.313-0.142,0.329-0.06"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M42.711,58.086c0,0,0.473-0.211,0.494-0.086"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M50.632,56.694c0,0,0.79-0.352,0.826-0.147"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M58.179,55.11c0.022,0.124,0.086,0.496,0.086,0.496"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M87.619,131.077c0.015,0.08,0.331-0.058,0.331-0.058"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M95.038,129.77c0.021,0.123,0.496-0.087,0.496-0.087"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M102.374,128.481c0.038,0.208,0.826-0.145,0.826-0.145"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M110.247,126.841c0.021,0.123,0.086,0.493,0.086,0.493"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M80.254,132.204c0.015,0.081,0.058,0.328,0.058,0.328"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M125.125,124.48c0.017,0.082,0.332-0.059,0.332-0.059"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M132.544,123.175c0,0,0.475-0.212,0.495-0.088"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M139.881,121.883c0,0,0.79-0.352,0.825-0.145"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M147.75,120.244c0.022,0.124,0.088,0.494,0.088,0.494"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M117.761,125.605c0.014,0.082,0.058,0.33,0.058,0.33"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M162.631,117.883c0,0,0.315-0.142,0.331-0.058"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M170.052,116.579c0,0,0.472-0.213,0.496-0.09"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M177.389,115.288c0,0,0.787-0.353,0.823-0.146"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M155.267,119.008c0.016,0.082,0.059,0.329,0.059,0.329"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M192.639,112.605c0.012,0.083,0.33-0.058,0.33-0.058"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M200.055,111.3c0.021,0.123,0.496-0.086,0.496-0.086"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M185.273,113.73c0,0,0.043,0.248,0.058,0.33"/>
-</svg> </div>
-                <div class="soja"><img src="https://le-mugs.com/wp-content/themes/mugs/images/sauce-soja.png"></div>
-                <div class="wasabi"><img src="https://le-mugs.com/wp-content/themes/mugs/images/wasabi.png"></div>
-
-                <div class="sushis"><img src="https://le-mugs.com/wp-content/themes/mugs/images/sushis.png">
-                    <div class="rollover" data-id="4">
-                        <div class="roundbtn">
-                            <svg version="1.1" id="decouvrir" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px" height="150px" viewBox="0 0 150 150" enable-background="new 0 0 150 150" xml:space="preserve">
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M38.077,69.726v10.841h3.087
-	c0,0,5.643,0.219,5.643-5.643c0-5.43-6.003-5.214-6.003-5.214L38.077,69.726z"/>
-<g>
-	<polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" points="101.034,69.889 93.885,69.889 
-		93.885,80.568 101.052,80.568 	"/>
-	
-		<line fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" x1="101.268" y1="77.272" x2="92.448" y2="77.272"/>
-</g>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M69.081,71.237c0,0-2.382-2.466-5.893-1.008
-	s-5.006,7.456-0.09,9.869c0,0,3.336,1.495,5.983-0.846"/>
-<circle fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" cx="75.269" cy="74.994" r="5.574"/>
-<polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" points="80.889,69.458 86.436,80.568 
-	92.011,69.455 "/>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M103.327,80.568V69.727h3.824
-	c0,0,3.638-0.216,3.638,3.188c0,3.404-3.89,3.35-3.89,3.35l-1.315-0.036l6.339,4.25"/>
-<line fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" x1="48.662" y1="69.619" x2="48.662" y2="80.568"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M59.666,71.256c0,0-1.233-1.915-4.814-1.93
-	c-3.581-0.015-4.713,3.137-3.519,4.575c1.194,1.438,4.545,1.224,5.845,1.668c1.301,0.444,2.326,1.438,1.76,3.213
-	c-0.566,1.775-4.751,2.985-7.372,0.422"/>
-</svg> </div>
-                    </div>
-                </div>
-                <div class="enviedesushi">
-                    <svg version="1.1" id="sushisvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="159.625px" height="108.25px" viewBox="0 0 159.625 108.25" enable-background="new 0 0 159.625 108.25" xml:space="preserve">
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M47.946,20.08C46.886,8.075,31,8.173,29.744,19.945C28.275,33.721,66.211,33.59,49.477,51.428
-	c-7.481,7.974-18.937,4.104-15.392-7.459"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M59.132,28.346c0.684,24.957,16.772,23.726,11.818-0.713"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M71.532,27.741c0.74,7.886,1.325,17.554,5.451,24.015"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M81.442,16.135c-8.677,11.867,10.13,22.041,2.224,33.359"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M89.63,4.392c2.073,14.678,4.648,29.409,6.013,44.177"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M93.524,26.735C98.158,3.93,105.549,37.17,106.49,43.641"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M108.413,15.564c1.022,8.543,1.843,20.252,8.732,25.826"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M107.453,7.376c-0.635-0.042-0.853,0.248-0.638,0.846"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M30.55,62.877c-5.415,7.734-2.678,26.798,5.134,32.736"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M43.803,62.269c-2.222,6.165-6.708,26.772,2.041,30.57c9.436,4.097,7.604-18.294,5.436-22.966c-1.817-3.919-3.447-7.039-8.516-7.332
-	"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M55.424,59.636c5.14,10.191,10.943,20.236,14.596,31.031"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M62.228,72.589c-1.386-5.599-1.167-12.892,4.75-16.078"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M82.13,89.595c-1.5-10.247-4.219-20.387-6.047-30.603"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M79.187,72.464c1.063-5.708,4.627-18.428,12.787-14.93c7.255,3.111,7.097,22.943,7.846,29.451"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M108.497,64.341c2.772-0.503,5.536-1.06,8.256-1.66"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M117.527,62.447c-2.777-9.591-7.506-16.895-10.625-2.942c-2.174,9.728-0.172,21.622,10.002,26.335"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M121.714,49.077c4.896,10.826,8.721,22.781,10.896,34.433"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M127.073,62.486c-0.669-5.462,0.585-12.311,4.414-16.534"/>
-</svg>
-                </div>
-                <div class="morceaux-chocolat"><img src="https://le-mugs.com/wp-content/themes/mugs/images/copeaux-chocolat.png"></div>
-                <div class="oeuf"><img src="https://le-mugs.com/wp-content/themes/mugs/images/oeuf.png"></div>
-                <div class="gourmandise-1"><img src="https://le-mugs.com/wp-content/themes/mugs/images/gourmandise-1.png">
-                    <div class="rollover" data-id="5">
-                        <div class="roundbtn">
-                            <svg version="1.1" id="decouvrir" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px" height="150px" viewBox="0 0 150 150" enable-background="new 0 0 150 150" xml:space="preserve">
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M38.077,69.726v10.841h3.087
-	c0,0,5.643,0.219,5.643-5.643c0-5.43-6.003-5.214-6.003-5.214L38.077,69.726z"/>
-<g>
-	<polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" points="101.034,69.889 93.885,69.889 
-		93.885,80.568 101.052,80.568 	"/>
-	
-		<line fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" x1="101.268" y1="77.272" x2="92.448" y2="77.272"/>
-</g>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M69.081,71.237c0,0-2.382-2.466-5.893-1.008
-	s-5.006,7.456-0.09,9.869c0,0,3.336,1.495,5.983-0.846"/>
-<circle fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" cx="75.269" cy="74.994" r="5.574"/>
-<polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" points="80.889,69.458 86.436,80.568 
-	92.011,69.455 "/>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M103.327,80.568V69.727h3.824
-	c0,0,3.638-0.216,3.638,3.188c0,3.404-3.89,3.35-3.89,3.35l-1.315-0.036l6.339,4.25"/>
-<line fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" x1="48.662" y1="69.619" x2="48.662" y2="80.568"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M59.666,71.256c0,0-1.233-1.915-4.814-1.93
-	c-3.581-0.015-4.713,3.137-3.519,4.575c1.194,1.438,4.545,1.224,5.845,1.668c1.301,0.444,2.326,1.438,1.76,3.213
-	c-0.566,1.775-4.751,2.985-7.372,0.422"/>
-</svg> </div>
-                    </div>
-                </div>
-                <div class="gourmandise-2"><img src="https://le-mugs.com/wp-content/themes/mugs/images/gourmandise-2.png"></div>
-                <div class="gourmandise-3"><img src="https://le-mugs.com/wp-content/themes/mugs/images/gourmandise-3.png"></div>
-                <div class="nosgourmandises">
-                    <svg version="1.1" id="nosgourmandisessvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="283px" height="175px" viewBox="0 0 283 175" enable-background="new 0 0 283 175" xml:space="preserve">
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M18.801,37.184c0,0,30.853,58.876,14.315,67.63c-16.539,8.757-14.388-19.086,23.233-9.401c37.62,9.684-13.79-97.086-48.109-49.583
-	c0,0-4.571,8.424,5.601,12.638"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M73.638,74.95c0,0,14.081-11.144,4.433-18.211c-9.648-7.068-3.13,45.03,12.197,18.194c15.327-26.836,6.049-52.345-1.909-51.396
-	c-7.958,0.948,8.222,102.805,19.049,28.989c0,0-1.824,44.696,10.479,12.504"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M126.992,52.157c0,0-5.41-5.061-7.079-3.98c-3.629,2.354-3.172,53.55,13.714,11.941c0,0,1.609,11.957,9.037,9.64
-	c7.428-2.314,5.295-26.353-1.98-25.844c-7.276,0.511-7.184,15.147-7.184,15.147"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M147.197,55.463c0,0,0.584,27.976,7.773,2.109"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M162.893,45.553c0,0-3.633-8.85-7.065-5.41c-8.095,8.111,8.414,55.98,15.695-2.049c0,0-4.211,46.409,14.653,15.4
-	c0,0,9.117-14.307,0.051-18.048c-9.068-3.741-5.6,49.968,12.775,13.304c18.373-36.666,4.582-32.344,2.115-26.869
-	c-2.466,5.475,8.301,18.84,30.768,31.88c22.467,13.041-27.506,52.401-24.498,26.856c3.009-25.545,34.881-33.632,48.777-17.068"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M171.853,26.621c0.036,0.311-0.007,1.25-0.007,1.25"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M107.085,41.311c0.037,0.311-0.005,1.25-0.005,1.25"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M56.339,116.134c0,0,71.43-45.138,135.81-26.554"/>
-</svg>
-                </div>
-                <div class="agrumes"><img src="https://le-mugs.com/wp-content/themes/mugs/images/agrumes-2.png"></div>
-                <div class="cocktail"><img src="https://le-mugs.com/wp-content/themes/mugs/images/cocktail.png">
-                    <div class="rollover" data-id="6">
-                        <div class="roundbtn">
-                            <svg version="1.1" id="decouvrir" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px" height="150px" viewBox="0 0 150 150" enable-background="new 0 0 150 150" xml:space="preserve">
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M38.077,69.726v10.841h3.087
-	c0,0,5.643,0.219,5.643-5.643c0-5.43-6.003-5.214-6.003-5.214L38.077,69.726z"/>
-<g>
-	<polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" points="101.034,69.889 93.885,69.889 
-		93.885,80.568 101.052,80.568 	"/>
-	
-		<line fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" x1="101.268" y1="77.272" x2="92.448" y2="77.272"/>
-</g>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M69.081,71.237c0,0-2.382-2.466-5.893-1.008
-	s-5.006,7.456-0.09,9.869c0,0,3.336,1.495,5.983-0.846"/>
-<circle fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" cx="75.269" cy="74.994" r="5.574"/>
-<polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" points="80.889,69.458 86.436,80.568 
-	92.011,69.455 "/>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M103.327,80.568V69.727h3.824
-	c0,0,3.638-0.216,3.638,3.188c0,3.404-3.89,3.35-3.89,3.35l-1.315-0.036l6.339,4.25"/>
-<line fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" x1="48.662" y1="69.619" x2="48.662" y2="80.568"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M59.666,71.256c0,0-1.233-1.915-4.814-1.93
-	c-3.581-0.015-4.713,3.137-3.519,4.575c1.194,1.438,4.545,1.224,5.845,1.668c1.301,0.444,2.326,1.438,1.76,3.213
-	c-0.566,1.775-4.751,2.985-7.372,0.422"/>
-</svg> </div>
-                    </div>
-                </div>
-                <div class="cocktails">
-                    <svg version="1.1" id="cocktailssvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="170px" height="146px" viewBox="0 0 170 146" enable-background="new 0 0 170 146" xml:space="preserve">
-			<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-			M19.248,20.77C-1.992,52.798,2.196,123.746,44.951,140.005"/>
-			<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-			M25.921,68.024c-7.867,7.314-13.021,33.566,4.629,24.271c10.733-5.653,5.856-24.387-6.03-24.077"/>
-			<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-			M52.897,50.469c-12.758,13.556-10.023,45.923,6.64,55.271"/>
-			<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-			M64.748,27.546c-1.386,22.578-5.823,47.637-2.098,70.164"/>
-			<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-			M61.386,78.422c8.712-3.724,13.793-12.749,15.78-21.771"/>
-			<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-			M67.433,74.871c7.939,2.911,15.536,8.112,20.73,14.866"/>
-			<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-			M79.819,23.777c5.859,22.444,16.289,45.414,21.566,66.835"/>
-			<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-			M78.191,46.796c4.908-3.487,10.2-6.125,15.889-7.909"/>
-			<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-			M115.211,46.3c-29.589,23.402,13.104,39.133,2.859,2.794"/>
-			<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-			M118.07,49.094c1.32,8.037,3.445,16.01,7.452,23.072"/>
-			<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-			M127.387,36.911c0.107,10.873,3.322,23.649,7.24,32.753"/>
-			<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-			M126.488,30.017c-0.205,0.024-0.277,0.133-0.213,0.33"/>
-			<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-			M137.173,9.609c-1.931,27.122,4.432,55.019,16.878,79.451"/>
-			<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-			M150.631,30.273c-11.279,18.854,15.698,33.308,12.672,50.304"/>
-		</svg> </div>
-                <div class="cuillere"><img src="https://le-mugs.com/wp-content/themes/mugs/images/cuillere.png"></div>
-                <div class="muffin"><img src="https://le-mugs.com/wp-content/themes/mugs/images/muffin-4.png"></div>
-                <div class="mug-3"><img src="https://le-mugs.com/wp-content/themes/mugs/images/mug-3.png">
-                    <div class="rollover" data-id="7">
-                        <div class="roundbtn">
-                            <svg version="1.1" id="decouvrir" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px" height="150px" viewBox="0 0 150 150" enable-background="new 0 0 150 150" xml:space="preserve">
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M38.077,69.726v10.841h3.087
-	c0,0,5.643,0.219,5.643-5.643c0-5.43-6.003-5.214-6.003-5.214L38.077,69.726z"/>
-<g>
-	<polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" points="101.034,69.889 93.885,69.889 
-		93.885,80.568 101.052,80.568 	"/>
-	
-		<line fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" x1="101.268" y1="77.272" x2="92.448" y2="77.272"/>
-</g>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M69.081,71.237c0,0-2.382-2.466-5.893-1.008
-	s-5.006,7.456-0.09,9.869c0,0,3.336,1.495,5.983-0.846"/>
-<circle fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" cx="75.269" cy="74.994" r="5.574"/>
-<polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" points="80.889,69.458 86.436,80.568 
-	92.011,69.455 "/>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M103.327,80.568V69.727h3.824
-	c0,0,3.638-0.216,3.638,3.188c0,3.404-3.89,3.35-3.89,3.35l-1.315-0.036l6.339,4.25"/>
-<line fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" x1="48.662" y1="69.619" x2="48.662" y2="80.568"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M59.666,71.256c0,0-1.233-1.915-4.814-1.93
-	c-3.581-0.015-4.713,3.137-3.519,4.575c1.194,1.438,4.545,1.224,5.845,1.668c1.301,0.444,2.326,1.438,1.76,3.213
-	c-0.566,1.775-4.751,2.985-7.372,0.422"/>
-</svg> </div>
-                    </div>
-                </div>
-                <div class="teatime">
-                    <svg version="1.1" id="teatimesvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="173px" height="167px" viewBox="0 0 173 167" enable-background="new 0 0 173 167" xml:space="preserve">
-				<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-				M138.123,7.629c3.346,15.824,6.418,33.1-6.673,45.422C114.211,69.275,85.153,72.705,63.105,77.77
-				c-12.449,2.857-25.093,5.586-37.091,10.047c-4.938,1.836-15.942,5.258-17.625,11.306c-3.838,13.786,26.06,8.545,31.613,6.612
-				C66.127,96.651,79.902,70.83,91.91,47.819"/>
-				<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-				M58.282,66.314c-6.039,13.186-7.538,26.729-6.784,41.151c0.83,15.853,10.019,20.187,22.344,10.61S94.869,89.834,86.5,89.834
-				c-7.833,0-15.103,19.186-1.546,24.331C93,117.22,97.188,104.089,98.853,98.787"/>
-				<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-				M98.853,98.787c-2.063,11.152,7.438,16.216,11.906,3.473c2.781-7.931-2.216-22.659-9.4-10.899
-				C100.037,93.522,99.486,96.354,98.853,98.787"/>
-				<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-				M111.661,96.465c-0.219,2.707-0.305,6.689,1.74,8.819c8.996,9.368,23.756-20.468,26.784-25.419"/>
-				<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-				M40.851,90.613c-7.217,17.813-9.377,35.077-6.873,53.936c1.818,13.691,8.756,22.712,19.953,9.018c2.8-3.427,6.649-8.48,9.128-15.574
-				"/>
-				<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-				M63.059,137.992c-1.146,5.261-4.13,19.166,6.386,16.565c6.025-1.489,10.16-12.06,13.233-16.622c2.835-4.207,4.269-7.496,7.351-2.719
-				c1.935,2.997,1.544,9.139,1.854,12.682"/>
-				<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-				M91.592,148.14c1.111-5.063,5.925-23.483,14.191-20.449c4.925,1.808,4.114,12.12,4.088,16.319"/>
-				<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-				M110.857,143.778c0.48-6.525,7.559-31.764,13.055-16.234c1.326,3.745-0.549,12.258,5.438,11.392
-				c8.155-1.182,12.407-17.879,7.58-21.066c-5.267-3.479-6.829,8.67-4.562,13.757c10.49,23.533,33.447-14.7,34.928-27.323"/>
-				<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-				M63.354,132.067c-0.147,0.226-0.215,0.481-0.173,0.735"/>
-			</svg> </div>
-                <svg version="1.1" id="tracesvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1031px" height="3544px" viewBox="0 0 1031 3544" enable-background="new 0 0 1031 3544" xml:space="preserve">
-		<path id="p1" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-miterlimit="0" d="M845,14.04
-		c94.488-0.933,147.798,113.116,61,198.96c-112.197,110.964-250.383,70.569-402,133c-110.712,45.587-171.223,130.125-158.981,201.27"
-		/>
-		<path id="p2" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" d="M395.214,636.783
-		C508.019,750.449,735.719,626.242,785,780c18.75,58.5,0.346,121.5-10.028,149.343"/>
-		<path id="p3" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" d="M719,1080.551
-		C685.436,1165,677,1284,735,1326c47.015,34.045,115.498,12.164,131-45c16-59-23-111-88-112c-84.843-1.306-125.168,89.977-138.98,151
-		c-15.885,70.191,14.48,139.643,57.16,193.202"/>
-		<path id="p4" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" d="M784.698,1636.219
-		c35.149,46.862,48.542,101.471-3.998,141.429c-52.421,39.867-115.838,17.305-165.888-13.571
-		c-53.508-33.005-222.409-144.596-354.4-151.492c-65.354-3.416-132.975,15.642-173.593,70.394
-		c-35.042,47.233-43.539,112.665-22.847,167.587c22.548,59.844,76.491,95.053,137.791,106.104
-		c81.652,14.722,130.323-30.101,213.6-42.669c112.637-17,195.638,54.803,221.399,130.602"/>
-		<path id="p5" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" d="M679.961,2196
-		c15.618,110-32.448,221.008-163.556,202.901C437.362,2387.983,326,2354,248,2411c-69.651,50.899-70.48,127.04-64.81,178.391"/>
-		<path id="p6" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" d="M223.544,2718.265
-		c19.247,66.11,179.788,263.739,297.122,209.739c49.069-22.583,50-86-0.667-117.333c-43.041-26.617-106-8-114,43.333
-		c-13.321,85.474,76,101.996,136,210.663"/>
-		<path id="p7" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10" d="M597,3185
-		c0,0,60.092,149.502,40.768,359"/>
-		</svg>
-            </div>
-        </div> -->
         <div class="section7">
             <div class="textOverparallax">
-                <h1>HOMEMADE</h1>
-                <p>All items are homemade, according to our traditional artisanal methods. We even make our own bread rolls!</p>
+                <div class="parents">
+                    <div class="child">
+                        <img src="images/price-match-icons-d-1616672182-w30ZV.png">
+                        <p>Price match guarantee</p>
+                    </div>
+                    <div class="child">
+                        <img src="images/45-day-icons-d-1616672180-RcUMD.png">
+                        <p>45 day move-in guarantee</p>
+                    </div>
+                    <div class="child">
+                        <img src="images/warranty-icons-d-1616672183-qLS3J.png">
+                        <p>10 year warranty</p>
+                    </div>
+                </div>
             </div>
 
-            <div class="parallax-window" style='background-image:url("https://le-mugs.com/wp-content/themes/mugs/images/slidehandmade.jpg")'>
 
+            <div class="parallax-window" style='background-color: gainsboro;'>
+                <h1> Why Choose Us </h1>
             </div>
         </div>
         <div class="section8">
             <ul class="slideshow">
                 <li>
-                    <div class="slide img0" style="background-image: url('https://le-mugs.com/wp-content/uploads/2015/08/slide-5.jpg');"></div>
+                    <div class="slide img0" style="background-image: url('https://interiorpics.s3.amazonaws.com/bed-2-1.jpg');"></div>
                 </li>
 
                 <li>
@@ -954,35 +338,35 @@
                 </li>
 
                 <li>
-                    <div class="slide img2" style="background-image: url('https://le-mugs.com/wp-content/uploads/2015/08/Slide-10.jpg');"></div>
+                    <div class="slide img2" style="background-image: url('https://interiorpics.s3.amazonaws.com/Liv_3_1.jpg');"></div>
                 </li>
 
                 <li>
-                    <div class="slide img3" style="background-image: url('https://le-mugs.com/wp-content/uploads/2015/08/Slide-2-1920x1278.jpg');"></div>
+                    <div class="slide img3" style="background-image: url('https://interiorpics.s3.amazonaws.com/bed-5-1.jpg');"></div>
                 </li>
 
                 <li>
-                    <div class="slide img4" style="background-image: url('https://le-mugs.com/wp-content/uploads/2015/08/Slide-8.jpg');"></div>
+                    <div class="slide img4" style="background-image: url('https://interiorpics.s3.amazonaws.com/Kit_7_1.jpg');"></div>
                 </li>
 
                 <li>
-                    <div class="slide img5" style="background-image: url('https://le-mugs.com/wp-content/uploads/2015/08/Slide-7.jpg');"></div>
+                    <div class="slide img5" style="background-image: url('https://interiorpics.s3.amazonaws.com/Liv_23_1.jpg');"></div>
                 </li>
 
                 <li>
-                    <div class="slide img6" style="background-image: url('https://le-mugs.com/wp-content/uploads/2015/08/Slide-6.jpg');"></div>
+                    <div class="slide img6" style="background-image: url('https://interiorpics.s3.amazonaws.com/bed-8-1.jpg');"></div>
                 </li>
 
                 <li>
-                    <div class="slide img7" style="background-image: url('https://le-mugs.com/wp-content/uploads/2015/08/Slide-4.jpg');"></div>
+                    <div class="slide img7" style="background-image: url('https://interiorpics.s3.amazonaws.com/Kit_25_1.jpg');"></div>
                 </li>
 
                 <li>
-                    <div class="slide img8" style="background-image: url('https://le-mugs.com/wp-content/uploads/2015/08/Slide-3.jpg');"></div>
+                    <div class="slide img8" style="background-image: url('https://interiorpics.s3.amazonaws.com/Liv_8_1.jpg');"></div>
                 </li>
 
                 <li>
-                    <div class="slide img9" style="background-image: url('https://le-mugs.com/wp-content/uploads/2015/08/Slide-9.jpg');"></div>
+                    <div class="slide img9" style="background-image: url('https://interiorpics.s3.amazonaws.com/Kit_10_1.jpg');"></div>
                 </li>
 
 
@@ -995,9 +379,9 @@
                     <p>Everybody is at your service to offer the best experience possible.</p>
                 </p>
             </div>
-            <div class="equipe1"><img src="https://le-mugs.com/wp-content/themes/mugs/images/equipe1.jpg"></div>
-            <div class="equipe2"><img src="https://le-mugs.com/wp-content/themes/mugs/images/equipe2.jpg"></div>
-            <div class="equipe3"><img src="https://le-mugs.com/wp-content/themes/mugs/images/equipe3.jpg"></div>
+            <div class="equipe1"><img src="./images/cocktail.png"></div>
+            <div class="equipe2"><img src="./images/courge.png"></div>
+            <div class="equipe3"><img src="./images/Legume-1.png"></div>
 
 
         </div>
@@ -1045,31 +429,7 @@
                 </div>
             </div>
         </div>
-        <div class="carte">
-            <div class="arrow-left"><img src="https://le-mugs.com/wp-content/themes/mugs/images/arrow-left.svg"></div>
-            <div class="arrow-right"><img src="https://le-mugs.com/wp-content/themes/mugs/images/arrow-right.svg"></div>
-            <div class="white-bg">
-                <div class="closeBtn"><img src="https://le-mugs.com/wp-content/themes/mugs/images/croix3.svg"></div>
-                <div class="picture">
-                    <ul id="slideshowMenu"></ul>
-                </div>
-                <div class="listing">
-                    <div class="arrow-up"><img src="https://le-mugs.com/wp-content/themes/mugs/images/arrow-up.svg"></div>
-                    <div class="arrow-down"><img src="https://le-mugs.com/wp-content/themes/mugs/images/arrow-up.svg"></div>
-                    <div id="listingContent">
-                        <div class="title">
-                            <h3></h3>
-                        </div>
-                        <div class="list-item">
-                            <ul>
 
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="black-bg"></div>
-        </div>
 
         <li id="cloneCell" class="hidden">
             <div class="blocLeft">

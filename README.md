@@ -1,2 +1,0 @@
-# homestudio
- NU HomeStudio

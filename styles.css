@@ -1105,7 +1105,7 @@ background-position: center; */
     width: 101%;
     height: 100%;
     position: absolute;
-    filter: blur(10px);
+    filter: blur(12px);
 }
 
 .bg2 {
@@ -1115,7 +1115,7 @@ background-position: center; */
     height: 100%;
     position: absolute;
     background-size: cover;
-    filter: blur(10px);
+    filter: blur(12px);
     /*	background-image:  linear-gradient(-45deg, #ffe09c 0%, #ffe09c 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%), linear-gradient(-135deg, #ffe09c 0%, #ffe09c 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
 background-position:  top right, top right;
 background-size:  1rem 1rem, 1rem 1rem;
@@ -1404,8 +1404,8 @@ right: 25px; */
         font-size: 26px;
         font-weight: bold;
         position: absolute;
-        top: 50%;
-        left: 54%;
+        top: 69%;
+        left: 60%;
         font-family: sans-serif;
         color: rgb(44, 41, 41);
         letter-spacing: 2px;
@@ -1425,18 +1425,9 @@ right: 25px; */
         background-size: cover;
         background-position: center;
         position: absolute;
-        top: 285px;
+        top: 370px;
         left: 1200px;
         border-radius: 50%;
-    }
-    .packageImg3 {
-        width: 200px;
-        height: 180px;
-        position: absolute;
-        bottom: 6%;
-        left: 51%;
-        background-size: cover;
-        background-position: center;
     }
 }
 
@@ -1987,6 +1978,7 @@ button:focus {
     height: 100vh;
     width: 100%;
     position: relative;
+    background-color: #fff;
 }
 
 .section5 .calme {
@@ -2001,8 +1993,9 @@ button:focus {
 .section5 .calme:after {
     content: '';
     background-color: transparent;
-    background: url('data:image/svg+xml;utf8,<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="200px" viewBox="0 0 10.4 117" enable-background="new 0 0 10 117" xml:space="preserve"><polygon fill="%236d969c" points="0,0 0,112.3 5.2,117.5 10.5,112.3 10.5,0 "/></svg>') repeat-x;
+    /* background: url('data:image/svg+xml;utf8,<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="200px" viewBox="0 0 10.4 117" enable-background="new 0 0 10 117" xml:space="preserve"><polygon fill="%236d969c" points="0,0 0,112.3 5.2,117.5 10.5,112.3 10.5,0 "/></svg>') repeat-x; */
     background-position: bottom;
+    background-color: #014953;
     height: 200px;
     width: 100%;
     position: absolute;
@@ -2093,7 +2086,7 @@ button:focus {
 }
 
 .calme .title h1 {
-    color: #ffe09c;
+    color: #ffa51f;
     margin-bottom: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 78px;
@@ -2135,6 +2128,7 @@ button:focus {
     .section5 .section5para {
         height: 80%;
         width: 100%;
+        background-color: #fff;
     }
 }
 
@@ -2514,9 +2508,9 @@ svg#tracesvg {
 //////////////////////////////////////////////////////////////////////*/
 
 .section7 {
-    background-color: #fff;
-    height: 400px;
+    /* background-color: #fff; */
     width: 100%;
+    height: 45vh;
     position: relative;
     overflow: hidden;
     color: #000;
@@ -2530,14 +2524,121 @@ svg#tracesvg {
     opacity: 1;
 }
 
-.section7 .textOverparallax p,
-.section7 .textOverparallax h1 {
+.section7 .parallax-window h1 {
+    display: block;
+    font-weight: bold;
+    display: flex;
+    margin-left: 16%;
+    margin-bottom: 0%;
+    padding-top: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
     color: #000;
-    text-align: left;
+}
+
+.section7 .textOverparallax p {
+    display: block;
+    font-weight: bold;
+    /* display: flex; */
+    margin-left: -1%;
+    margin-bottom: 0%;
+    padding-top: 0px;
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: 1px;
+    color: #000;
 }
 
 .section7 .parallax-window {
     background-position: middle right;
+}
+
+.parents {
+    width: 73vw;
+    position: absolute;
+    top: -74px;
+    left: -113px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.child {
+    height: 200px;
+    width: 300px;
+    background: whitesmoke;
+    box-shadow: 0 0 20px #bac3c3;
+    margin-top: 4%;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.child:first-child {
+    background: whitesmoke;
+}
+
+.child:last-child {
+    background: whitesmoke;
+}
+
+.child img {
+    padding: 15px 33%;
+}
+
+.child p {
+    margin-top: 5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .grand_parent {
+        height: auto;
+        padding-bottom: 10%;
+    }
+    .navbar {
+        width: 200px;
+    }
+}
+
+@media (max-width: 2200px) {
+    .grand_parent {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 360px) and (max-width: 640px) {
+    .grand_parent {
+        height: 92vh;
+    }
+    .child {
+        height: 150px;
+        width: 200px;
+    }
+    .child img {
+        padding: 10px 20%;
+    }
+    .child p {
+        margin-top: -6%;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 768px) and (max-width: 1024px) {
+    .child {
+        height: 150px;
+        width: 200px;
+    }
+    .child img {
+        padding: 10px 20%;
+    }
+    .child p {
+        margin-top: -6%;
+        text-align: center;
+        font-weight: bold;
+    }
 }
 
 

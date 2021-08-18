@@ -2,10 +2,10 @@
 
 session_start();
 
-include("./db/includes/db.php");
-include("includes/header.php");
-include("functions/functions.php");
-include("includes/main.php");
+include("./includes/db.php");
+include("./includes/header.php");
+// include("functions/functions.php");
+// include("includes/main.php");
 
 
 ?>
@@ -16,7 +16,7 @@ include("includes/main.php");
     <!-- HERO -->
     <div class="nero">
         <div class="nero__heading">
-            <span class="nero__bold">Register</span> AT AVE
+            <span class="nero__bold">Register</span>
         </div>
         <p class="nero__text">
         </p>
@@ -182,6 +182,18 @@ include("includes/main.php");
                     </div><!-- form-group Ends -->
 
 
+                    <!-- <div class="form-group"> -->
+                    <!-- form-group Starts -->
+                    <!-- 
+                        <center>
+
+                            <label> Captcha Verification </label>
+
+                            <div class="g-recaptcha" data-sitekey="6Lc-WxYUAAAAAFUhTFfBEzLGmEgRXHHdsD4ECvIC"></div>
+
+                        </center>
+
+                    </div>form-group Ends -->
 
 
                     <div class="text-center">
@@ -340,54 +352,53 @@ function check_pass() {
 
 if (isset($_POST['register'])) {
 
-  $secret = "6Lc-WxYUAAAAAN5j2OdDsryWwGfREg5eeuZFpKMv";
+    $secret = "6Lc-WxYUAAAAAN5j2OdDsryWwGfREg5eeuZFpKMv";
 
 
+    if ($secret == "6Lc-WxYUAAAAAN5j2OdDsryWwGfREg5eeuZFpKMv") {
 
-  if ($secret == "6Lc-WxYUAAAAAN5j2OdDsryWwGfREg5eeuZFpKMv") {
+        $c_name = $_POST['c_name'];
 
-    $c_name = $_POST['c_name'];
+        $c_email = $_POST['c_email'];
 
-    $c_email = $_POST['c_email'];
+        $c_pass = $_POST['c_pass'];
 
-    $c_pass = $_POST['c_pass'];
+        $c_country = $_POST['c_country'];
 
-    $c_country = $_POST['c_country'];
+        $c_city = $_POST['c_city'];
 
-    $c_city = $_POST['c_city'];
+        $c_contact = $_POST['c_contact'];
 
-    $c_contact = $_POST['c_contact'];
+        $c_address = $_POST['c_address'];
 
-    $c_address = $_POST['c_address'];
+        $c_image = $_FILES['c_image']['name'];
 
-    $c_image = $_FILES['c_image']['name'];
+        $c_image_tmp = $_FILES['c_image']['tmp_name'];
 
-    $c_image_tmp = $_FILES['c_image']['tmp_name'];
+        // $c_ip = getRealUserIp();
 
-    $c_ip = getRealUserIp();
+        move_uploaded_file($c_image_tmp, "customer/customer_images/$c_image");
 
-    move_uploaded_file($c_image_tmp, "customer/customer_images/$c_image");
+        $get_email = "select * from customers where customer_email='$c_email'";
 
-    $get_email = "select * from customers where customer_email='$c_email'";
+        $run_email = mysqli_query($con, $get_email);
 
-    $run_email = mysqli_query($con, $get_email);
+        $check_email = mysqli_num_rows($run_email);
 
-    $check_email = mysqli_num_rows($run_email);
+        if ($check_email == 1) {
 
-    if ($check_email == 1) {
+            echo "<script>alert('This email is already registered, try another one')</script>";
 
-      echo "<script>alert('This email is already registered, try another one')</script>";
+            exit();
+        }
 
-      exit();
-    }
+        $customer_confirm_code = mt_rand();
 
-    $customer_confirm_code = mt_rand();
+        $subject = "Email Confirmation Message";
 
-    $subject = "Email Confirmation Message";
+        $from = "svkvijaykumar123@gmail.com";
 
-    $from = "sad.ahmed22224@gmail.com";
-
-    $message = "
+        $message = "
 
 <h2>
 Email Confirmation By Computerfever.com $c_name
@@ -401,42 +412,42 @@ Click Here To Confirm Email
 
 ";
 
-    $headers = "From: $from \r\n";
+        $headers = "From: $from \r\n";
 
-    $headers .= "Content-type: text/html\r\n";
+        $headers .= "Content-type: text/html\r\n";
 
-    mail($c_email, $subject, $message, $headers);
+        mail($c_email, $subject, $message, $headers);
 
-    $insert_customer = "insert into customers (customer_name,customer_email,customer_pass,customer_country,customer_city,customer_contact,customer_address,customer_image,customer_ip,customer_confirm_code) values ('$c_name','$c_email','$c_pass','$c_country','$c_city','$c_contact','$c_address','$c_image','$c_ip','$customer_confirm_code')";
+        $insert_customer = "insert into customers (customer_name,customer_email,customer_pass,customer_country,customer_city,customer_contact,customer_address,customer_image,customer_ip,customer_confirm_code) values ('$c_name','$c_email','$c_pass','$c_country','$c_city','$c_contact','$c_address','$c_image','$c_ip','$customer_confirm_code')";
 
 
-    $run_customer = mysqli_query($con, $insert_customer);
+        $run_customer = mysqli_query($con, $insert_customer);
 
-    $sel_cart = "select * from cart where ip_add='$c_ip'";
+        // $sel_cart = "select * from cart where ip_add='$c_ip'";
 
-    $run_cart = mysqli_query($con, $sel_cart);
+        // $run_cart = mysqli_query($con, $sel_cart);
 
-    $check_cart = mysqli_num_rows($run_cart);
+        // $check_cart = mysqli_num_rows($run_cart);
 
-    if ($check_cart > 0) {
+        if ($check_cart > 0) {
 
-      $_SESSION['customer_email'] = $c_email;
+            $_SESSION['customer_email'] = $c_email;
 
-      echo "<script>alert('You have been Registered Successfully')</script>";
+            echo "<script>alert('You have been Registered Successfully')</script>";
 
-      echo "<script>window.open('checkout.php','_self')</script>";
+            echo "<script>window.open('checkout.php','_self')</script>";
+        } else {
+
+            $_SESSION['customer_email'] = $c_email;
+
+            echo "<script>alert('You have been Registered Successfully')</script>";
+
+            echo "<script>window.open('customer_login.php','_self')</script>";
+        }
     } else {
 
-      $_SESSION['customer_email'] = $c_email;
-
-      echo "<script>alert('You have been Registered Successfully')</script>";
-
-      echo "<script>window.open('index.php','_self')</script>";
+        echo "<script>alert('Please Select Captcha, Try Again')</script>";
     }
-  } else {
-
-    echo "<script>alert('Please Select Captcha, Try Again')</script>";
-  }
 }
 
 ?>
