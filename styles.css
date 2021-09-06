@@ -211,7 +211,7 @@ body {
     overflow-y: auto;
     text-rendering: optimizeLegibility;
     backface-visibility: hidden;
-    background-attachment: fixed;
+    /* filter: blur(10px); */
 }
 
 h1,

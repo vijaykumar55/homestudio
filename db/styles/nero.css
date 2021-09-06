@@ -1,0 +1,100 @@
+.nero {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'montserratlight', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    background: #666 url("../images/banner-ave.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nero__heading {
+    font-size: 48px;
+}
+
+.nero__bold {
+    font-weight: 700;
+}
+
+.nero__text {
+    font-size: 30px;
+}
+
+.hero {
+    padding-top: 300px;
+    padding-bottom: 140px;
+    color: #fff;
+    background: #666 url(../images/photo0.png) no-repeat;
+    background-size: cover;
+    background-position: 50%
+}
+
+.hero .btn1 {
+    text-decoration: none;
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    font-family: Roboto;
+    border: 1.5px solid gray;
+    background-color: #f8f8f8;
+    position: relative;
+    line-height: 40px;
+    float: right;
+    right: 210px;
+    top: 80px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hero .btn1:hover {
+    background-color: #009595;
+    color: white;
+}
+
+.wrapper {
+    text-align: center;
+    width: 40em;
+    margin: 2.5em auto;
+    padding: 1em;
+    border-radius: 8px;
+    border-top: 1px solid #eee;
+}
+
+.wrapper> :first-child {
+    margin-top: 0;
+}
+
+.wrapper> :last-child {
+    margin-bottom: 0;
+}
+
+.todo a {
+    padding: 1em;
+    border-radius: 4px;
+    color: BLACK;
+    font-family: montserratlight;
+    font-weight: lighter;
+    font-size: .9em;
+    text-decoration: none;
+}
+
+.todo ul {
+    margin: .4em 0;
+    padding: 0 1em;
+}
+
+.todo li {
+    display: inline;
+    margin-right: 12px;
+}
+
+.todo a:hover {
+    color: #009595;
+}
+
+.tac {
+    text-align: center;
+}

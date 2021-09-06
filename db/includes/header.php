@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="./logo1.png" type="image/png">
     <title>NU HomeStudio</title>
     <link href="styles/bootstrap.min.css" rel="stylesheet">
-    <link href="styles/backend.css" rel="stylesheet">
-    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/nero.css" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">

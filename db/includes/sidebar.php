@@ -1,4 +1,4 @@
-<div class="panel panel-default sidebar-menu">
+<div class="panel  sidebar-menu">
     <!-- panel panel-default sidebar-menu Starts -->
 
     <div class="panel-heading">
